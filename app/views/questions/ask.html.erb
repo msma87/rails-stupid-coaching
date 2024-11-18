@@ -1,0 +1,5 @@
+<h4 class="fs-6 fw-light">Ask your coach anything</h4>
+<form action="/answer" method="get" data-turbo="false" class="input-group">
+  <input type="text" name="question" value="<%= params[:question].to_s %>" class="form-control">
+  <button type="submit" class="btn btn-primary">Ask!</button>
+</form>
